@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="CheckingCriticalFailures(failed)">
+    <classes>
+      <class name="com.comarch.training.FailingCases">
+        <methods>
+          <include name="init"/>
+          <include name="SubstactionTest"/>
+          <include name="DivisionTest"/>
+          <include name="AddingToMemoryTest"/>
+        </methods>
+      </class> <!-- com.comarch.training.FailingCases -->
+      <class name="com.comarch.training.PositiveCases">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.comarch.training.PositiveCases -->
+    </classes>
+  </test> <!-- CheckingCriticalFailures(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

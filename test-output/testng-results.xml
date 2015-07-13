@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" total="10" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="128" started-at="2015-07-13T11:06:54Z" finished-at="2015-07-13T11:06:54Z">
+    <groups>
+      <group name="important">
+        <method signature="FailingCases.SubstactionTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="SubstactionTest" class="com.comarch.training.FailingCases"/>
+      </group> <!-- important -->
+      <group name="failures">
+        <method signature="FailingCases.SubstactionTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="SubstactionTest" class="com.comarch.training.FailingCases"/>
+        <method signature="FailingCases.AddingToMemoryTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="AddingToMemoryTest" class="com.comarch.training.FailingCases"/>
+        <method signature="FailingCases.DivisionTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="DivisionTest" class="com.comarch.training.FailingCases"/>
+      </group> <!-- failures -->
+      <group name="succes">
+        <method signature="PositiveCases.AddingTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="AddingTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.AddingToMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="AddingToMemoryTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.DivisionTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="DivisionTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.GettingMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="GettingMemoryTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.MultiplyTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="MultiplyTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.SettingMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="SettingMemoryTest" class="com.comarch.training.PositiveCases"/>
+        <method signature="PositiveCases.SubstactionTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="SubstactionTest" class="com.comarch.training.PositiveCases"/>
+      </group> <!-- succes -->
+    </groups>
+    <test name="Acceptance" duration-ms="55" started-at="2015-07-13T11:06:54Z" finished-at="2015-07-13T11:06:54Z">
+      <class name="com.comarch.training.PositiveCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="init" is-config="true" duration-ms="22" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="AddingTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="AddingTest" duration-ms="6" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingTest -->
+        <test-method status="PASS" signature="AddingToMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="AddingToMemoryTest" duration-ms="0" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingToMemoryTest -->
+        <test-method status="PASS" signature="DivisionTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="DivisionTest" duration-ms="1" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionTest -->
+        <test-method status="PASS" signature="GettingMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="GettingMemoryTest" duration-ms="0" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GettingMemoryTest -->
+        <test-method status="PASS" signature="MultiplyTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="MultiplyTest" duration-ms="1" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyTest -->
+        <test-method status="PASS" signature="SettingMemoryTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="SettingMemoryTest" duration-ms="1" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingMemoryTest -->
+        <test-method status="PASS" signature="SubstactionTest()[pri:0, instance:com.comarch.training.PositiveCases@1ae369b7]" name="SubstactionTest" duration-ms="1" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubstactionTest -->
+      </class> <!-- com.comarch.training.PositiveCases -->
+    </test> <!-- Acceptance -->
+    <test name="CheckingCriticalFailures" duration-ms="8" started-at="2015-07-13T11:06:54Z" finished-at="2015-07-13T11:06:54Z">
+      <class name="com.comarch.training.FailingCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="init" is-config="true" duration-ms="1" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="SubstactionTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="SubstactionTest" duration-ms="1" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [10] but found [5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [10] but found [5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at com.comarch.training.FailingCases.SubstactionTest(FailingCases.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubstactionTest -->
+        <test-method status="SKIP" signature="AddingToMemoryTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="AddingToMemoryTest" duration-ms="0" depends-on-groups="important" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FailingCases.AddingToMemoryTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66] depends on not successfully finished methods in group "important"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FailingCases.AddingToMemoryTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66] depends on not successfully finished methods in group "important"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingToMemoryTest -->
+        <test-method status="SKIP" signature="DivisionTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66]" name="DivisionTest" duration-ms="0" depends-on-groups="important" started-at="2015-07-13T13:06:54Z" finished-at="2015-07-13T13:06:54Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FailingCases.DivisionTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66] depends on not successfully finished methods in group "important"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FailingCases.DivisionTest()[pri:0, instance:com.comarch.training.FailingCases@5ba23b66] depends on not successfully finished methods in group "important"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionTest -->
+      </class> <!-- com.comarch.training.FailingCases -->
+    </test> <!-- CheckingCriticalFailures -->
+  </suite> <!-- Suite1 -->
+</testng-results>
